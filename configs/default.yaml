@@ -1,0 +1,6 @@
+mode: demo
+bitrate: 0.10
+lambda_value: 10.0
+steps: 4
+resolution: 256
+seed: 42

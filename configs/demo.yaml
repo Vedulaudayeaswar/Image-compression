@@ -1,0 +1,8 @@
+mode: demo
+resolution: 256
+steps: 4
+note: "Reduced CPU-safe neural configuration; not paper-equivalent."
+
+# Optional public smoke-test checkpoint. This is not Stable Diffusion v2.1.
+# Set DIFFUSIONCOMPRESS_MODEL_ID=diffusers/tiny-stable-diffusion-torch and
+# DIFFUSIONCOMPRESS_ALLOW_MODEL_DOWNLOAD=1 to exercise the real Diffusers path.

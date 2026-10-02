@@ -1,0 +1,5 @@
+mode: research
+model_id: stabilityai/stable-diffusion-2-1-base
+backbone_frozen: true
+allow_model_download: false
+note: "Requires local or explicitly downloadable Stable Diffusion v2.1 weights."

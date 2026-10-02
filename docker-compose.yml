@@ -1,0 +1,9 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports: ["8000:8000"]
+    volumes: ["./data:/app/data", "./checkpoints:/app/checkpoints", "./models:/app/models"]
+    environment:
+      DIFFUSIONCOMPRESS_ALLOW_MODEL_DOWNLOAD: "0"
